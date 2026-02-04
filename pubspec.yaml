@@ -1,0 +1,109 @@
+name: free_code_camp_flutter_course
+description: "Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  carousel_slider: ^5.1.1
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  carousel_slider: ^5.1.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/favicons/lime512.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+
+  assets:
+    - assets/images/Screenshot_20240110-103702_Instagram.jpg
+    - assets/images/Screenshot_20240110-111138_Instagram.jpg
+    - assets/images/Screenshot_20240110-111149_Instagram.jpg
+    - assets/images/Screenshot_20240110-111211_Instagram.jpg
+    - assets/images/Screenshot_20240110-111247_Instagram.jpg
+    - assets/images/Screenshot_20240110-111310_Instagram.jpg
+    - assets/images/Screenshot_20240110-111326_Instagram.jpg
+    - assets/images/Screenshot_20240110-111620_Instagram.jpg
+    - assets/images/Screenshot_20240110-111629_Instagram.jpg
+    - assets/images/Screenshot_20240110-111659_Instagram.jpg
+    - assets/images/Screenshot_20240110-111711_Instagram.jpg
+    - assets/images/Screenshot_20240110-111743_Instagram.jpg
+    - assets/images/Screenshot_20240110-111817_Instagram.jpg
+    - assets/images/Screenshot_20240110-111832_Instagram.jpg
+    - assets/images/Screenshot_20240119-124033_Instagram.jpg
+    - assets/images/Screenshot_20240119-124045_Instagram.jpg
+    - assets/images/Screenshot_20240119-124103_Instagram.jpg
+    - assets/images/Screenshot_20240119-124111_Instagram.jpg
+    - assets/images/Screenshot_20240122-021410_Instagram.jpg
+    - assets/images/Screenshot_20240122-021414_Instagram.jpg
+    - assets/images/Screenshot_20240125-011356_Instagram.jpg
+    - assets/images/Screenshot_20240125-011411_Instagram.jpg
+    - assets/images/Screenshot_20240125-011424_Instagram.jpg
+    - assets/images/Screenshot_20240125-011433_Instagram.jpg
+    - assets/images/Screenshot_20240125-011756_Instagram.jpg
+    - assets/images/Screenshot_20240126-101718_Instagram.jpg
+    - assets/images/Screenshot_20240126-101732_Instagram.jpg
+    - assets/images/Screenshot_20240129-012030_Instagram.jpg
+    - assets/images/Screenshot_20240131-001858_Instagram.jpg
+    - assets/images/Screenshot_20240201-001640_Instagram.jpg
+    - assets/images/Screenshot_20240202-003539_Instagram.jpg
+    - assets/images/Screenshot_20240202-003556_Instagram.jpg
+    - assets/images/Screenshot_20240213-101102_Instagram.jpg
+    - assets/images/Screenshot_20240220-010628_Instagram.jpg
+    - assets/images/Screenshot_20240220-010641_Instagram.jpg
+    - assets/images/Screenshot_20240220-010648_Instagram.jpg
+    - assets/images/Screenshot_20240221-012508_Instagram.jpg
+    - assets/images/Screenshot_20240221-012515_Instagram.jpg
+    - assets/images/Screenshot_20240221-012525_Instagram.jpg
+    - assets/images/Screenshot_20240221-012539_Instagram.jpg
+    - assets/images/Screenshot_20240222-103049_Instagram.jpg
+    - assets/images/Screenshot_20240222-103058_Instagram.jpg
+    - assets/images/Screenshot_20240223-013948_Instagram.jpg
+    - assets/images/Screenshot_20240224-000315_Instagram.jpg
+    - assets/images/Screenshot_20240226-094622_Instagram.jpg
+    - assets/images/Screenshot_20240226-094629_Instagram.jpg
+    - assets/images/Screenshot_20240226-094636_Instagram.jpg
+    - assets/images/Screenshot_20240226-094650_Instagram.jpg
+    - assets/images/Screenshot_20240227-092722_Instagram.jpg
+    - assets/images/Screenshot_20240227-092728_Instagram.jpg
+    - assets/images/Screenshot_20240228-092534_Instagram.jpg
+    - assets/images/Screenshot_20240229-021604_Instagram.jpg
+    - assets/images/Screenshot_20240302-113304_Instagram.jpg
+    - assets/images/Screenshot_20240307-014348_Instagram.jpg
+    - assets/images/Screenshot_20240307-014355_Instagram.jpg
+    - assets/images/Screenshot_20240307-215708_Instagram.jpg
+    - assets/images/Screenshot_20240313-022522_Instagram.jpg
+    - assets/images/Screenshot_20240318-100418_Instagram.jpg
+    - assets/images/Screenshot_20240318-100550_Instagram.jpg
+    - assets/images/Screenshot_20240319-100518_Instagram.jpg
+    - assets/images/Screenshot_20240401-092623_Instagram.jpg
+    - assets/images/Screenshot_20240401-092635_Instagram.jpg
+    - assets/images/Screenshot_20240401-092641_Instagram.jpg
+    - assets/images/Screenshot_20240411-021043_Instagram.jpg
+    - assets/images/Screenshot_20240411-021049_Instagram.jpg
+    - assets/images/Screenshot_20240424-200851_Instagram.jpg
+    - assets/images/Screenshot_20240507-090459_Instagram.jpg
