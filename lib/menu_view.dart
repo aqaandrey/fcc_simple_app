@@ -48,6 +48,7 @@ class _MainScreen extends State<MenuView> {
                       },
                       child: const Text('Profile'),
                     ),
+                    const SizedBox(height: 5),
                     // contacts btn
                     TextButton(
                       style: TextButton.styleFrom(
@@ -94,7 +95,6 @@ class _MainScreen extends State<MenuView> {
                       },
                       child: const Text('Help'),
                     ),
-                    // back btn
                   ],
                 ),
                 // right col
